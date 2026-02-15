@@ -1,10 +1,11 @@
-import { connectDB } from "@/lib/db";
+import Dashboard from "./dashboard/page";
 export default async function Home() {
-  await connectDB()
+
   
 
   return (
     <div>
+      <Dashboard />
 
     </div>
   );
